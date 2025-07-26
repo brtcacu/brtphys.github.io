@@ -3,64 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berat Cacu | Physics & Math Student</title>
+    <title>Berat Cacu | Physics & Mathematics Researcher</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-    <img src="images/profile.jpg" alt="Your Name" class="profile-img">
-    </header>
-    <header>
-        <h1>Berat Cacu</h1>
-        <p>Undergraduate in Physics & Mathematics at Boğaziçi University</p>
-    </header>
+    <div class="container">
+        <header class="main-header">
+            <img src="images/profile.jpg" alt="Berat Cacu" class="profile-img">
+            <div class="header-content">
+                <h1>Berat Cacu</h1>
+                <p class="subtitle">Theoretical Physics & Mathematics Researcher</p>
+                <p class="institution">Boğaziçi University</p>
+            </div>
+        </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#projects"><i class="fas fa-flask"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-                Fourth-year Physics undergraduate at Bogazici University pursuing a double major in Mathemat-ics, with growing specialization in mathematical physics. My current research interests focus on the intersection of theoretical physics and advanced mathematics, particularly in General Relativity and its modern extensions. I am deeply engaged with foundational questions in Quantum Field Theory and alternative approaches to gravity, with special attention to entropic gravity frameworks.This dual physics-mathematics perspective informs my approach to theoretical problems, where I seek to combine physical intuition with mathematical precision, particularly in studying emergent spacetime phenomena.
-        </p>
-    </section>
+        <main>
+            <section id="about" class="card">
+                <h2><i class="fas fa-atom"></i> About Me</h2>
+                <p>Fourth-year Physics undergraduate at Bogazici University pursuing a double major in Mathematics, with growing specialization in mathematical physics. My current research interests focus on the intersection of theoretical physics and advanced mathematics, particularly in General Relativity and its modern extensions.</p>
+                <p>I am deeply engaged with foundational questions in Quantum Field Theory and alternative approaches to gravity, with special attention to entropic gravity frameworks. This dual physics-mathematics perspective informs my approach to theoretical problems, where I seek to combine physical intuition with mathematical precision, particularly in studying emergent spacetime phenomena.</p>
+            </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>Boğaziçi University</h3>
-            <p><em>BSc in Physics</em> | 20XX–Present</p>
-            <p><em>BSc in Mathematics (Double Major)</em> | 20XX–Present</p>
-            <p>Relevant coursework: [List key courses]</p>
-        </div>
-    </section>
+            <section id="education" class="card">
+                <h2><i class="fas fa-university"></i> Education</h2>
+                <div class="education-item">
+                    <h3>Boğaziçi University</h3>
+                    <div class="education-details">
+                        <span class="degree">BSc in Physics</span>
+                        <span class="date">2020–Present</span>
+                    </div>
+                    <div class="education-details">
+                        <span class="degree">BSc in Mathematics (Double Major)</span>
+                        <span class="date">2022–Present</span>
+                    </div>
+                    <div class="courses">
+                        <h4>Key Courses:</h4>
+                        <ul class="course-list">
+                            <li>General Relativity</li>
+                            <li>Quantum Field Theory</li>
+                            <li>Differential Geometry</li>
+                            <li>Advanced Mathematical Physics</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Conformal transformations presentation notes</h3>
-            <a href="pdfs/conformal_transformations.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">
-                <i class="fas fa-file-pdf"></i> Download Conformal Transformations Notes (PDF)
-            </a>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+            <section id="projects" class="card">
+                <h2><i class="fas fa-project-diagram"></i> Research Projects</h2>
+                <div class="project">
+                    <h3>Conformal Transformations in General Relativity</h3>
+                    <p>Comprehensive notes on conformal transformations and their applications in modern theoretical physics.</p>
+                    <a href="pdfs/conformal_transformations.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> Download Full Notes (PDF)
+                    </a>
+                </div>
+            </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:cacuberat2@gmail.com">your.email@boun.edu.tr</a></p>
-        <p>GitHub: <a href="https://github.com/brtcacu">github.com/brtcacu</a></p>
-        <p>LinkedIn: <a href="#">Your Profile</a></p>
-    </section>
+            <section id="contact" class="card">
+                <h2><i class="fas fa-network-wired"></i> Contact</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:cacuberat2@gmail.com">cacuberat2@gmail.com</a></p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/brtcacu" target="_blank">github.com/brtcacu</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="#" target="_blank">LinkedIn Profile</a></p>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 Your Name. Hosted on GitHub Pages.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Berat Cacu. All rights reserved.</p>
+            <p class="hosting">Hosted on GitHub Pages</p>
+        </footer>
+    </div>
 </body>
 </html>
