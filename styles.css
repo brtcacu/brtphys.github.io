@@ -74,7 +74,13 @@ footer {
     background: #34495e;
     color: white;
 }
-
+.profile-img {
+    width: 150px;          /* Adjust size */
+    border-radius: 50%;    /* Circular crop */
+    border: 3px solid #2c3e50; /* Optional border */
+    display: block;        /* Center the image */
+    margin: 1rem auto;     /* Spacing */
+}
 /* Responsive Design */
 @media (max-width: 600px) {
     nav ul {
