@@ -6,72 +6,41 @@
     <title>Berat Cacu | Physics & Mathematics Researcher</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-pattern"></div>
-    
     <div class="container">
-        <header class="main-header">
-            <div class="header-background"></div>
-            <div class="header-content">
-                <div class="profile-section">
-                    <img src="images/profile.jpg" alt="Berat Cacu" class="profile-img">
-                    <div class="profile-status">
-                        <span class="status-dot"></span>
-                        <span class="status-text">Available for Research</span>
-                    </div>
-                </div>
-                <div class="info-section">
+        <header class="header">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Berat Cacu" class="profile-img">
+                <div class="profile-info">
                     <h1>Berat Cacu</h1>
-                    <p class="subtitle">Theoretical Physics & Mathematics Researcher</p>
-                    <p class="institution">
-                        <i class="fas fa-university"></i>
-                        Boğaziçi University
-                    </p>
-                    <div class="quick-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">4th</span>
-                            <span class="stat-label">Year Student</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">2</span>
-                            <span class="stat-label">Majors</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">∞</span>
-                            <span class="stat-label">Curiosity</span>
-                        </div>
-                    </div>
+                    <p class="title">Theoretical Physics & Mathematics Researcher</p>
+                    <p class="institution"><i class="fas fa-university"></i> Boğaziçi University</p>
                 </div>
             </div>
         </header>
 
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> <span>About</span></a></li>
-                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> <span>Education</span></a></li>
-                <li><a href="#projects" class="nav-link"><i class="fas fa-flask"></i> <span>Projects</span></a></li>
-                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
-            </ul>
+        <nav class="nav">
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+            <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+            <a href="#projects"><i class="fas fa-flask"></i> Projects</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </nav>
 
-        <main>
-            <section id="about" class="card">
-                <div class="card-header">
-                    <h2><i class="fas fa-atom"></i> About Me</h2>
-                    <div class="card-decoration"></div>
-                </div>
-                <div class="card-content">
-                    <div class="about-intro">
-                        <p class="highlight-text">Fourth-year Physics undergraduate at Bogazici University pursuing a double major in Mathematics, with growing specialization in mathematical physics.</p>
-                    </div>
+        <main class="main">
+            <section id="about" class="section">
+                <h2><i class="fas fa-atom"></i> About Me</h2>
+                <div class="content">
+                    <p class="intro">Fourth-year Physics undergraduate at Bogazici University pursuing a double major in Mathematics, with growing specialization in mathematical physics.</p>
+                    
                     <p>My current research interests focus on the intersection of theoretical physics and advanced mathematics, particularly in <strong>General Relativity</strong> and its modern extensions.</p>
+                    
                     <p>I am deeply engaged with foundational questions in <strong>Quantum Field Theory</strong> and alternative approaches to gravity, with special attention to entropic gravity frameworks. This dual physics-mathematics perspective informs my approach to theoretical problems, where I seek to combine physical intuition with mathematical precision, particularly in studying emergent spacetime phenomena.</p>
                     
-                    <div class="research-interests">
+                    <div class="interests">
                         <h3>Research Interests</h3>
-                        <div class="interest-tags">
+                        <div class="tags">
                             <span class="tag">General Relativity</span>
                             <span class="tag">Quantum Field Theory</span>
                             <span class="tag">Mathematical Physics</span>
@@ -83,215 +52,104 @@
                 </div>
             </section>
 
-            <section id="education" class="card">
-                <div class="card-header">
-                    <h2><i class="fas fa-university"></i> Education</h2>
-                    <div class="card-decoration"></div>
-                </div>
-                <div class="card-content">
+            <section id="education" class="section">
+                <h2><i class="fas fa-university"></i> Education</h2>
+                <div class="content">
                     <div class="education-item">
-                        <div class="education-header">
-                            <h3>Boğaziçi University</h3>
-                            <div class="university-badge">
-                                <i class="fas fa-award"></i>
-                                <span>Top-tier Institution</span>
-                            </div>
-                        </div>
+                        <h3>Boğaziçi University</h3>
                         
-                        <div class="degree-container">
-                            <div class="degree-item">
-                                <div class="degree-icon">
-                                    <i class="fas fa-atom"></i>
-                                </div>
+                        <div class="degrees">
+                            <div class="degree">
                                 <div class="degree-info">
-                                    <span class="degree">BSc in Physics</span>
-                                    <span class="date">2020–Present</span>
+                                    <span class="degree-title">BSc in Physics</span>
+                                    <span class="degree-date">2020–Present</span>
                                 </div>
                                 <div class="progress-bar">
-                                    <div class="progress-fill" style="width: 80%"></div>
+                                    <div class="progress" style="width: 80%"></div>
                                 </div>
                             </div>
                             
-                            <div class="degree-item">
-                                <div class="degree-icon">
-                                    <i class="fas fa-calculator"></i>
-                                </div>
+                            <div class="degree">
                                 <div class="degree-info">
-                                    <span class="degree">BSc in Mathematics (Double Major)</span>
-                                    <span class="date">2022–Present</span>
+                                    <span class="degree-title">BSc in Mathematics (Double Major)</span>
+                                    <span class="degree-date">2022–Present</span>
                                 </div>
                                 <div class="progress-bar">
-                                    <div class="progress-fill" style="width: 60%"></div>
+                                    <div class="progress" style="width: 60%"></div>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="courses">
                             <h4>Key Courses:</h4>
-                            <div class="course-grid">
-                                <div class="course-item">
-                                    <i class="fas fa-globe"></i>
-                                    <span>General Relativity</span>
-                                </div>
-                                <div class="course-item">
-                                    <i class="fas fa-wave-square"></i>
-                                    <span>Quantum Field Theory</span>
-                                </div>
-                                <div class="course-item">
-                                    <i class="fas fa-project-diagram"></i>
-                                    <span>Differential Geometry</span>
-                                </div>
-                                <div class="course-item">
-                                    <i class="fas fa-infinity"></i>
-                                    <span>Advanced Mathematical Physics</span>
-                                </div>
-                            </div>
+                            <ul class="course-list">
+                                <li>General Relativity</li>
+                                <li>Quantum Field Theory</li>
+                                <li>Differential Geometry</li>
+                                <li>Advanced Mathematical Physics</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="projects" class="card">
-                <div class="card-header">
-                    <h2><i class="fas fa-project-diagram"></i> Research Projects</h2>
-                    <div class="card-decoration"></div>
-                </div>
-                <div class="card-content">
+            <section id="projects" class="section">
+                <h2><i class="fas fa-project-diagram"></i> Research Projects</h2>
+                <div class="content">
                     <div class="project">
                         <div class="project-header">
                             <h3>Conformal Transformations in General Relativity</h3>
-                            <div class="project-status">
-                                <span class="status-badge completed">Completed</span>
-                            </div>
+                            <span class="status">Completed</span>
                         </div>
-                        <p class="project-description">Comprehensive notes on conformal transformations and their applications in modern theoretical physics, exploring the mathematical foundations and physical implications.</p>
+                        <p>Comprehensive notes on conformal transformations and their applications in modern theoretical physics, exploring the mathematical foundations and physical implications.</p>
                         
-                        <div class="project-features">
-                            <div class="feature-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Mathematical Foundations</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Physical Applications</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Detailed Examples</span>
-                            </div>
-                        </div>
-                        
-                        <div class="project-actions">
-                            <a href="pdfs/conformal_transformations.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link primary">
-                                <i class="fas fa-file-pdf"></i>
-                                <span>Download Full Notes</span>
-                                <small>PDF Format</small>
-                            </a>
-                        </div>
+                        <a href="pdfs/conformal_transformations.pdf" target="_blank" class="pdf-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Download Full Notes (PDF)</span>
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <section id="contact" class="card">
-                <div class="card-header">
-                    <h2><i class="fas fa-network-wired"></i> Contact</h2>
-                    <div class="card-decoration"></div>
-                </div>
-                <div class="card-content">
-                    <div class="contact-intro">
-                        <p>Feel free to reach out for research collaborations, academic discussions, or any questions about my work.</p>
-                    </div>
+            <section id="contact" class="section">
+                <h2><i class="fas fa-network-wired"></i> Contact</h2>
+                <div class="content">
+                    <p class="contact-intro">Feel free to reach out for research collaborations, academic discussions, or any questions about my work.</p>
                     
-                    <div class="contact-grid">
+                    <div class="contact-list">
                         <a href="mailto:cacuberat2@gmail.com" class="contact-item">
-                            <div class="contact-icon email">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-info">
-                                <span class="contact-label">Email</span>
-                                <span class="contact-value">cacuberat2@gmail.com</span>
-                            </div>
-                            <i class="fas fa-arrow-right contact-arrow"></i>
+                            <i class="fas fa-envelope"></i>
+                            <span>cacuberat2@gmail.com</span>
                         </a>
                         
                         <a href="https://github.com/brtcacu" target="_blank" class="contact-item">
-                            <div class="contact-icon github">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="contact-info">
-                                <span class="contact-label">GitHub</span>
-                                <span class="contact-value">github.com/brtcacu</span>
-                            </div>
-                            <i class="fas fa-arrow-right contact-arrow"></i>
+                            <i class="fab fa-github"></i>
+                            <span>github.com/brtcacu</span>
                         </a>
                         
                         <a href="#" target="_blank" class="contact-item">
-                            <div class="contact-icon linkedin">
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                            <div class="contact-info">
-                                <span class="contact-label">LinkedIn</span>
-                                <span class="contact-value">Professional Profile</span>
-                            </div>
-                            <i class="fas fa-arrow-right contact-arrow"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
                         </a>
                     </div>
                 </div>
             </section>
         </main>
 
-        <footer>
-            <div class="footer-content">
-                <div class="footer-info">
-                    <p>&copy; 2024 Berat Cacu. All rights reserved.</p>
-                    <p class="hosting">
-                        <i class="fab fa-github"></i>
-                        Hosted on GitHub Pages
-                    </p>
-                </div>
-                <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#education">Education</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
+        <footer class="footer">
+            <p>&copy; 2024 Berat Cacu. All rights reserved.</p>
+            <p class="hosting"><i class="fab fa-github"></i> Hosted on GitHub Pages</p>
         </footer>
     </div>
 
     <script>
-        // Smooth scrolling for navigation links
+        // Simple smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add active class to navigation items based on scroll position
-        window.addEventListener('scroll', () => {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-link');
-            
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
+                    target.scrollIntoView({ behavior: 'smooth' });
                 }
             });
         });
