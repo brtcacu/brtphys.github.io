@@ -1,7 +1,6 @@
 /* Basic Dark Theme */
 :root {
     --bg: #1a1a1a;
-    --card-bg: #2a2a2a;
     --text: #cccccc;
     --text-light: #ffffff;
     --accent: #4a9eff;
@@ -70,9 +69,7 @@ body {
     gap: 1.5rem;
     padding: 0.8rem 0;
     margin-bottom: 1rem;
-    background: var(--card-bg);
-    border-radius: 4px;
-    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
 }
 
 .nav a {
@@ -85,25 +82,24 @@ body {
 }
 
 .nav a:hover {
-    background: var(--bg);
     color: var(--accent);
 }
 
 /* Sections */
 .section {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 1.2rem;
+    padding: 1.2rem 0;
     margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.section:last-child {
+    border-bottom: none;
 }
 
 .section h2 {
     color: var(--text-light);
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 0.3rem;
 }
 
 .section h3 {
@@ -229,7 +225,7 @@ footer {
     }
     
     .section {
-        padding: 1rem;
+        padding: 1rem 0;
     }
     
     .links {
