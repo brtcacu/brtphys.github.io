@@ -64,8 +64,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.project ul {
+    margin-left: 1.5rem;
+    padding-left: 0;
+}
 
-/* Background Pattern */
+.project li {
+    margin-bottom: 0.5rem;
+}
 .background-pattern {
     position: fixed;
     top: 0;
